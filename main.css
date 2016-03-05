@@ -1,92 +1,128 @@
+/*
+Rood:  FF003D
+Oranje:  FF5603
+Geel:  FFE300
+Lichtgroen: 9CDB4C
+Groen:  23D749
+Lichtblauw: 00DFFF
+Blauw:  455AA9
+Paars:  834E98
+*/
 html, body {
     font-size: 100%;
     font-family: Arial;
-    background: #434242;
-    color: #fff;
-    font-family: Quicksand;
+    background: #000; /* for the footer */
 }
-main h1 {
+h1, h2 {
+    font-family: "Oswald";
+}
+header {
+    background: #fff;
+    text-align: center;
+}
+main {
+    background: #fff;
+    padding: 1em;
+}
+main.payoff {
+    background: #00DFFF;
+    text-align: center;
+    padding-bottom: 2em;
+}
+main.payoff h1 {
     font-size: 4em;
-    /*font-weight: 100;*/
-}
-main p {
     line-height: 1.4em;
+    color: #fff;
+}
+main.payoff h2 {
+    font-size: 2.4em;
+    margin-top: 0.4em;
+    font-weight: 100;
+    color: #fff;
+}
+main.video {
+    background: #000;
+}
+main.video .video {
+    height: 320px;
+}
+main.diensten {
+    padding-top: 40px;
+}
+main.diensten ul {
+    width: 396px;
+    display: inline-block;
+}
+main.diensten li {
+    padding-left: 40px;
+    font-size: 1.6em;
+    line-height: 1.4em;
+    color: #737373;
+}
+main.voorbeelden h2 {
+    color: #00DFFF;
+    font-size: 2em;
+    line-height: 1.2em;
+    margin: 0.2em 0;
+}
+main.voorbeelden section {
+    padding: 1em 0;
+}
+main.voorbeelden p {
+    font-size: 1.2em;
+    line-height: 1.2em;
+    padding-bottom: 1em;
+}
+main.voorbeelden a {
+    color: #00DFFF;
+}
+main.formulier h2 {
+    color: #00DFFF;
+    font-size: 2em;
+}
+main.formulier form {
+    margin-top: 2em;
+    font-size: 1.2em;
+}
+main.formulier form label {
+    display: inline-block;
+    width: 200px;
+    line-height: 2.4em;
+}
+main.formulier form input {
+    padding: 0.2em;
+    border: 1px solid silver;
+    font-size: 1.2em;
+}
+footer {
+    color: #fff;
+    line-height: 1.8em;
+    padding-bottom: 2em;
+}
+footer .col {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 2em;
+    width: 200px;
+}
+footer h1 {
     font-size: 1.4em;
 }
-main .video {
-    text-align: center;
+footer a {
+    color: #fff;
+    text-decoration: none;
 }
 .wrapper {
     max-width: 800px;
     margin: auto;
     position: relative;
 }
-main.video {
-    background: #99B1C3;
-}
-.clear {
-    clear: both;
-}
-header {
-    height: 340px;
-}
-header .background,
-header.content {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    height: 340px;
-}
-header .background {
-    background: url(https://straatgendarm.files.wordpress.com/2013/05/gallerij-pagina-agentschap-voor-natuur-en-bos-google-chrome_2013-04-25_11-28-19.png) center center no-repeat;
-    background-size: cover;
 
-    -webkit-filter: blur(5px);
-    -moz-filter: blur(5px);
-    -o-filter: blur(5px);
-    -ms-filter: blur(5px);
-    filter: blur(5px);
-}
-header .content {
-    text-align: center;
-}
-img {
-    max-width: 600px;
-}
-main {
-    background: #fff;
-    color: #333;
-    padding-bottom: 2em;
-}
-main section {
-    padding-top: 2em;
-}
-main section img {
-    float: right;
-    width: 200px;
-}
-footer {
-    font-size: 1.4em;
-}
-footer h1 {
-    font-size: 1.4em;
-    margin-top: 1em;
-}
-footer a {
-    color: #fff;
-    text-decoration: none;
-    line-height: 2em;
-}
-.mobile_buttons {
-    display: none;
-}
+
 
 @media (max-width: 600px) {
     img {
         max-width: 80%;
-    }
-    main.video {
-        display: none;
     }
     .wrapper {
         max-width: 90%;
