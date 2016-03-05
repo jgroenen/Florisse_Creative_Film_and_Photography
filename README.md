@@ -27,3 +27,7 @@
 
 - formulier
 - contact buttons (bellen, mailen)
+
+6. Campagne
+
+- Facebook + LinkedIn campagne (zzp en small business rondom Eindhoven)
