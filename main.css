@@ -51,6 +51,7 @@ main.diensten {
 }
 main.diensten ul {
     width: 396px;
+    max-width: 100%;
     display: inline-block;
 }
 main.diensten li {
@@ -67,6 +68,10 @@ main.voorbeelden h2 {
 }
 main.voorbeelden section {
     padding: 1em 0;
+}
+main.voorbeelden .youtube-video {
+    float: right;
+    margin-left: 20px;
 }
 main.voorbeelden p {
     font-size: 1.2em;
@@ -125,22 +130,16 @@ footer a {
         max-width: 80%;
     }
     .wrapper {
+        min-width: 320px;
         max-width: 90%;
+        position: relative;
     }
-    main h1 {
-        font-size: 2em;
+    main.voorbeelden .youtube-video iframe {
+        max-width: 100%;
     }
-    .mobile_buttons {
-        display: block;
-    }
-    a.button {
-        background: #fff;
-        border-radius: 4px;
-        display: inline-block;
-        height: 100px;
-        width: 100px;
-    }
-    a.button img {
-        width: 100px;
+    main.voorbeelden .youtube-video {
+        max-width: 90%;
+        float: none;
+        margin: auto;
     }
 }
