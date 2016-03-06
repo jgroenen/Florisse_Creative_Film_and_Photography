@@ -16,8 +16,18 @@ html, body {
 h1, h2 {
     font-family: "Oswald";
 }
+h1 {
+    font-size: 4em;
+}
+h2 {
+    font-size: 2em;
+}
+h3 {
+    font-size: 1.2em;
+}
 header {
-    background: #fff;
+    background: #fff url() center center no-repeat;
+    background-size: cover;
     text-align: center;
 }
 main {
@@ -25,48 +35,54 @@ main {
     padding: 1em;
 }
 main h2 {
-    color: #00DFFF;
-    font-size: 2em;
+    color: #B71C32;
     line-height: 1.2em;
     margin: 0.2em 0;
 }
+main h3 {
+    color: #555;
+    line-height: 1.4em;
+    margin: 0.4em 0;
+    font-weight: 700;
+}
 main.payoff {
-    background: #00DFFF;
+    /*background: #B7421C;*/
     text-align: center;
     padding-bottom: 2em;
 }
 main.payoff h1 {
-    font-size: 4em;
     line-height: 1.4em;
-    color: #fff;
+    color: #B71C32;
 }
 main.payoff h2 {
-    font-size: 2.4em;
     line-height: 1.2em;
     margin-top: 0.4em;
     font-weight: 100;
-    color: #fff;
+    color: #B71C32;
 }
 main.video {
+    display: none;
     background: #000;
 }
 main.video .video {
     height: 320px;
 }
 main.diensten {
-    padding-top: 40px;
+    padding-top: 0;
+    /*padding-top: 40px;*/
 }
 main.diensten ul {
-    margin-top: 2em;
+    /*margin-top: 2em;*/
     width: 396px;
     max-width: 100%;
     display: inline-block;
+    text-align: center;
 }
 main.diensten li {
     padding-left: 40px;
     font-size: 1.6em;
     line-height: 1.4em;
-    color: #737373;
+    /*color: #737373;*/
 }
 main.voorbeelden section {
     padding: 1em 0;
@@ -81,7 +97,29 @@ main.voorbeelden p {
     padding-bottom: 1em;
 }
 main.voorbeelden a {
-    color: #00DFFF;
+    /*color: #603D6F;*/
+    color: #B71C32;
+}
+main.cta {
+    /*background: #259B3A;*/
+    text-align: center;
+}
+main.cta h2 {
+    /*color: #fff;*/
+    line-height: 1.4em;
+}
+main.cta button {
+    margin-top: 0.4em;
+    font-size: 2em;
+    border: 0;
+    color: #fff;
+    background: #B71C32;
+    padding: 0.4em 1em;
+    border-radius: 0.4em;
+    cursor: pointer;
+}
+main.formulier {
+    padding-top: 2em;
 }
 main.formulier form {
     margin-top: 2em;
@@ -132,11 +170,17 @@ footer a {
         max-width: 90%;
         position: relative;
     }
+    main.payoff h1 {
+        font-size: 2em;
+    }
+    main h2 {
+        font-size: 1.4em;
+    }
     main.voorbeelden .youtube-video iframe {
         max-width: 100%;
     }
     main.voorbeelden .youtube-video {
-        max-width: 90%;
+        max-width: 100%;
         float: none;
         margin: auto;
     }
