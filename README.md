@@ -23,6 +23,7 @@
 
  - iconen diensten
  - 2-minuut showreel bovenaan pagina
+ - teksten bijwerken
 
 5) Contact
 
