@@ -97,6 +97,9 @@ main.voorbeelden .youtube-video {
     float: right;
     margin-left: 20px;
 }
+main.voorbeelden h2 {
+    line-height: 2.4em;
+}
 main.voorbeelden p {
     font-size: 1.2em;
     line-height: 1.2em;
@@ -125,7 +128,8 @@ main.cta button {
     cursor: pointer;
 }
 main.formulier {
-    padding-top: 2em;
+    padding-top: 4em;
+    padding-bottom: 4em;
 }
 main.formulier form {
     margin-top: 2em;
@@ -165,7 +169,11 @@ footer a {
     position: relative;
 }
 
-
+@media (max-width: 850px) {
+    main.diensten ul {
+        width: 100%;
+    }
+}
 
 @media (max-width: 600px) {
     img {
