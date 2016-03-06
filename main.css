@@ -96,6 +96,7 @@ main.voorbeelden section {
 main.voorbeelden .youtube-video {
     float: right;
     margin-left: 20px;
+    margin-top: 34px;
 }
 main.voorbeelden h2 {
     line-height: 2.4em;
