@@ -12,6 +12,7 @@ html, body {
     font-size: 100%;
     font-family: Arial;
     background: #000; /* for the footer */
+    color: #1C1C1C;
 }
 h1, h2 {
     font-family: "Oswald";
@@ -40,7 +41,6 @@ main h2 {
     margin: 0.2em 0;
 }
 main h3 {
-    color: #555;
     line-height: 1.4em;
     margin: 0.4em 0;
     font-weight: 700;
@@ -49,6 +49,7 @@ main.payoff {
     /*background: #B7421C;*/
     text-align: center;
     padding-bottom: 2em;
+    padding-top: 0;
 }
 main.payoff h1 {
     line-height: 1.4em;
@@ -58,7 +59,12 @@ main.payoff h2 {
     line-height: 1.2em;
     margin-top: 0.4em;
     font-weight: 100;
+    color: #1C1C1C;
+}
+main.payoff h2 span {
     color: #B71C32;
+    font-size: 1.1em;
+    font-weight: 900;
 }
 main.video {
     display: none;
@@ -79,9 +85,9 @@ main.diensten ul {
     text-align: center;
 }
 main.diensten li {
-    padding-left: 40px;
+    /*padding-left: 40px;*/
     font-size: 1.6em;
-    line-height: 1.4em;
+    line-height: 1.8em;
     /*color: #737373;*/
 }
 main.voorbeelden section {
