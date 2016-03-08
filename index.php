@@ -95,6 +95,18 @@
         <main class="formulier">
             <div class="wrapper">
                 <section>
+<?php
+
+if ("POST" === $_SERVER["REQUEST_METHOD"]) {
+	mail("info@florisse.nl", "Een bericht vanuit florisse.nl", print_r($_POST, true));
+?>
+                    <h2>Bedankt voor uw bericht.</h2>
+                    <h3>Wij nemen zo spoedig mogelijk contact met u op.</h3>
+<?php
+
+} else {
+
+?>
                     <h2>... of laat uw gegevens achter.</h2>
                     <h3>Wij nemen zo spoedig mogelijk contact met u op.</h3>
                     <form method="post">
@@ -119,6 +131,7 @@
                             <textarea name="vraag" style="width: 295px; height: 100px; vertical-align: top"></textarea>
                         </div>
                     </form>
+<?php } ?>
                 </section>
             </div>
         </main>
