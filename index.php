@@ -130,6 +130,11 @@ if ("POST" === $_SERVER["REQUEST_METHOD"]) {
                             <label for="vraag">Vraag:</label>
                             <textarea name="vraag" style="width: 295px; height: 100px; vertical-align: top"></textarea>
                         </div>
+                        <div>
+                            <br>
+                            <label></label>
+                            <input type="submit" value="Neem contact op">
+                        </div>
                     </form>
 <?php } ?>
                 </section>
