@@ -27,9 +27,3 @@
  - iconen diensten
  - 2-minuut showreel bovenaan pagina
  - teksten bijwerken
-
-4) Contact
-
- - formulier werkend maken
-
-5) Site live
